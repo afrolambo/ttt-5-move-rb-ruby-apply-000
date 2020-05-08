@@ -11,5 +11,7 @@ input = user_input
 input_to_index(input)
   return input
   index = input
-move(board,index,"X")
+def move(board,index,"X")
+  board[index] = "X"
+  return board
 display_board(board)
