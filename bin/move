@@ -12,5 +12,4 @@ input_to_index(input)
   return input
   index = input
 move(board,index,player)
-  return board[index] = "X"
 display_board(board)
