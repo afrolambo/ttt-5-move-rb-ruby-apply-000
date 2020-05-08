@@ -14,6 +14,6 @@ end
 
 board = [" "," "," "," "," "," "," "," "," "]
 def move(board,input_to_index,player = "X")
-  board[input_to_index] = "X"
+  board[input_to_index] = "#{player}"
   return board
 end
