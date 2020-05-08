@@ -11,4 +11,3 @@ input = user_input
 input_to_index(input)
 return input
 index = input
-move(index)
